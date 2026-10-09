@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Criação de sites, publicação e suporte digital para pequenos negócios.">
+  <meta name="theme-color" content="#0b1224">
+  <title>NexaHost — Sites e presença digital</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="NexaHost, página inicial">
+      <span class="brand-mark" aria-hidden="true">N</span><span>Nexa<span class="brand-accent">Host</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav id="mainNav" class="nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#seguranca">Segurança</a>
+      <a href="#processo">Como funciona</a>
+      <a class="nav-cta" href="#contato">Solicitar orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Tecnologia simples para pequenos negócios</p>
+        <h1>Seu negócio merece um <span>site de verdade.</span></h1>
+        <p class="hero-text">Criamos páginas rápidas e modernas e ajudamos você a colocá-las online, com atenção à manutenção e às boas práticas de segurança.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#servicos">Conhecer serviços</a>
+        </div>
+        <div class="trust-row">
+          <span><span class="check">✓</span> Adaptado para celular</span>
+          <span><span class="check">✓</span> Orçamento claro</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração de uma janela de site e indicadores de segurança">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="browser-card">
+          <div class="browser-top"><div class="window-dots"><i></i><i></i><i></i></div><span>seu-negocio.example</span></div>
+          <div class="mock-content">
+            <div class="mock-logo"></div><div class="mock-line long"></div><div class="mock-line medium"></div>
+            <div class="mock-button"></div>
+            <div class="mock-cards"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div class="security-chip"><span class="shield">✓</span><span><b>Segurança em camadas</b><small>Verificações + boas práticas</small></span></div>
+        <div class="code-chip"><span>{ }</span> Código organizado</div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="section-heading">
+        <p class="eyebrow">O que fazemos</p>
+        <h2>O essencial para sua presença digital.</h2>
+        <p>Começamos com projetos objetivos e evoluímos conforme a necessidade do seu negócio.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="icon-box">⌘</div>
+          <h3>Criação de sites</h3>
+          <p>Páginas de apresentação para profissionais, lojas e pequenos negócios, com layout adaptado para celular.</p>
+          <span class="card-label">Design responsivo</span>
+        </article>
+        <article class="service-card">
+          <div class="icon-box">↗</div>
+          <h3>Publicação online</h3>
+          <p>Ajudamos a publicar seu site em uma plataforma adequada e explicamos os custos de domínio ou serviços adicionais antes de contratar.</p>
+          <span class="card-label">Publicação assistida</span>
+        </article>
+        <article class="service-card">
+          <div class="icon-box">◈</div>
+          <h3>Manutenção básica</h3>
+          <p>Pequenas alterações de conteúdo e orientações de manutenção, conforme o que for combinado na proposta.</p>
+          <span class="card-label">Suporte combinado</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section security-section" id="seguranca">
+      <div class="security-copy">
+        <p class="eyebrow">Segurança desde o começo</p>
+        <h2>Mais cuidado em cada etapa.</h2>
+        <p>Usamos verificações automatizadas e boas práticas para ajudar a encontrar problemas antes da publicação. Ferramentas de análise reduzem riscos, mas não garantem segurança total.</p>
+        <ul class="feature-list">
+          <li><span>✓</span><div><b>Análise do código</b><small>Verificações automatizadas quando disponíveis.</small></div></li>
+          <li><span>✓</span><div><b>Dependências monitoradas</b><small>Alertas para bibliotecas com vulnerabilidades conhecidas.</small></div></li>
+          <li><span>✓</span><div><b>Revisão humana</b><small>Alertas são analisados antes de aplicar correções.</small></div></li>
+        </ul>
+      </div>
+      <div class="security-panel">
+        <div class="panel-header"><span class="panel-dot"></span> PAINEL DE BOAS PRÁTICAS <span class="panel-status">DEMO</span></div>
+        <div class="scan-row"><span class="scan-icon">⌕</span><div><b>Análise do projeto</b><small>Configuração de verificações automatizadas</small></div><span class="tag">Planejado</span></div>
+        <div class="scan-row"><span class="scan-icon">◷</span><div><b>Monitoramento de acessos</b><small>Depende dos recursos da hospedagem</small></div><span class="tag">Planejado</span></div>
+        <div class="scan-row"><span class="scan-icon">✳</span><div><b>Assistência por IA</b><small>Ajuda a explicar alertas, com revisão humana</small></div><span class="tag">Planejado</span></div>
+        <p class="panel-note">Este painel é ilustrativo. Não representa uma varredura real nem monitora visitantes neste momento.</p>
+      </div>
+    </section>
+
+    <section class="section process" id="processo">
+      <div class="section-heading">
+        <p class="eyebrow">Simples e transparente</p>
+        <h2>Como funciona o projeto.</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><span>01</span><h3>Entendemos sua ideia</h3><p>Definimos o objetivo, o conteúdo e as funcionalidades necessárias.</p></div>
+        <div class="step"><span>02</span><h3>Montamos a página</h3><p>Você revisa uma demonstração antes da publicação final.</p></div>
+        <div class="step"><span>03</span><h3>Publicamos e orientamos</h3><p>Combinamos a entrega, os acessos e os custos recorrentes, se houver.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div>
+        <p class="eyebrow">Vamos tirar a ideia do papel?</p>
+        <h2>Conte o que você precisa.</h2>
+        <p>Solicite uma conversa inicial. O orçamento e o escopo serão combinados antes do início do trabalho.</p>
+      </div>
+      <div class="contact-card">
+        <p><b>Contato comercial</b></p>
+        <p>Adicione aqui seu e-mail comercial ou seu link de WhatsApp depois de criá-los.</p>
+        <button class="button button-primary" id="contactButton" type="button">Ver instruções de contato</button>
+        <p class="contact-feedback" id="contactFeedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">N</span><span>Nexa<span class="brand-accent">Host</span></span></a>
+    <p>Projeto inicial de criação e publicação de sites.</p>
+    <p class="footer-small">NexaHost é um nome provisório. Verifique disponibilidade de marca e domínio antes de usar comercialmente.</p>
+    <span>© <span id="year"></span> NexaHost. Todos os direitos reservados.</span>
+  </footer>
+</body>
+</html>
